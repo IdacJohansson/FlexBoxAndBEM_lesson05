@@ -8,6 +8,7 @@ body {
   height: 700px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .box-container {
@@ -118,18 +119,17 @@ body {
 .navy-square {
   background-color: #03071e;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
-  width: 273px; 
+  width: 273px;
   height: 220px;
   display: flex;
   flex-direction: row;
-  padding: 20px; 
-  box-sizing: border-box; 
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .row {
   display: flex;
   gap: 20px;
-  row-gap: 0px;
 }
 
 .circle {
@@ -156,7 +156,8 @@ body {
 .third-block-circle {
   flex-wrap: wrap;
   gap: 30px;
-  row-gap: 70px;
+  row-gap: 80px;
+  align-self: flex-end;
   align-items: center;
   justify-content: center;
 }
@@ -168,6 +169,7 @@ body {
   row-gap: 50px;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .fifth-block-circle {
@@ -176,4 +178,5 @@ body {
   row-gap: 20px;
   align-items: center;
   justify-content: center;
+  padding: 40px;
 }

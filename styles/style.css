@@ -11,7 +11,7 @@ body {
   justify-content: center;
 }
 
-.box-container {
+.rectangle-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -107,7 +107,7 @@ body {
   justify-content: center;
 }
 
-.box-container-circle {
+.square-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -127,11 +127,6 @@ body {
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-  gap: 20px;
-}
-
 .circle {
   background-color: #748cab;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
@@ -139,7 +134,19 @@ body {
   width: 50px;
   height: 50px;
 }
-/*BLOCK*/
+
+/*ROWS*/
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+.row-third-block {
+  display: flex;
+  gap: 41px;
+}
+
+/*BLOCKS*/
 
 .first-block-circle {
   flex-wrap: wrap;
@@ -155,10 +162,7 @@ body {
 
 .third-block-circle {
   flex-wrap: wrap;
-  gap: 30px;
-  row-gap: 80px;
-  align-self: flex-end;
-  align-items: center;
+  align-content: space-between;
   justify-content: center;
 }
 

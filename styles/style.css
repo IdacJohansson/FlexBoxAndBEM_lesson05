@@ -49,8 +49,8 @@ body {
 }
 
 .fifth-block {
-  align-items: center;
   justify-content: center;
+  align-items: baseline;
 }
 
 .sixth-block {
